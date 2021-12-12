@@ -1,0 +1,6 @@
+<script language="Javascript">
+	function example_change_cursor() {
+		document.body.style.cursor = document.getElementById('example-cursor').options[document.getElementById('example-cursor').selectedIndex].value;
+	}
+	function example_restore_cursor() {
+		document.body.style.cursor = 'default';
